@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/tabimage.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Mason Hollar | Data Science And Mathematics Undergrad.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Mason Hollar, R, R Studio, Python, Data Science, Mathematics" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Mason Hollar</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>An Undergrad Math and Data Science Major studying at Warren Wilson College</p>
+        <a href="#contact" class="btn btn--green">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>RAAD Research Project</h3>
+              <p>
+                The Healthy Opportunities Pilot (HOP) program, started by the North Carolina Department of Health and Human Services is an initiative to test and evaluate the impact of offering targeted, evidence-based, non-medical interventions focused on housing, food, transportation, interpersonal safety, and toxic stress for high-needs Medicaid enrollees. Me and my colleagues, Gracen Alleman and Neylan Visnius, worked with Bounty & Soul, a local non-profit, to evaluate which specific areas within 3 counties in Western North Carolina (Buncombe, McDowell, and Henderson) may be more vunerable in terms of health and socioeconomic factors where they may be eligible to recieve fresh produce provided by Bounty & Soul.
+              </p>
+              <ul class="work__list">
+                <li>R/R Studio</li>
+                <li>GIS</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://docs.google.com/presentation/d/1NhjtLASIX1VpaUXClhhVdc7-vuzV65xC/edit?usp=sharing&ouid=110092763174082330836&rtpof=true&sd=true" target="_blank" class="link__text">
+                  Presentation <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Hello there! I'm Mason, I'm currently an undergrad student at Warren Wilson College currently studying Data Science and Mathematics. I'm also on the WWC Men's Volleyball Team, and the ITS (Information Technology Services) crew at WWC as well. My hobbies include weightlifting, playing basketball and grand strategy video games.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://docs.google.com/document/d/1try_RmjvaPC_1Qx9B7AN2-w7rxX5skuO/edit?usp=sharing&ouid=110092763174082330836&rtpof=true&sd=true" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/aboutme.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Want to reach me? Feel free to email anytime and I'l be sure to get back to you soon!
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mhollar.f21@warren-wilson.edu" class="btn">mhollar.f21@warren-wilson.edu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/mhollar327/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
